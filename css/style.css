@@ -115,13 +115,3 @@ nav ul ul li a:hover {
   border-top: 10px solid #FFF79A;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent; }
-
-/* line 107, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
-.circle {
-  float: right;
-  display: inline;
-  width: 10px;
-  height: 10px;
-  margin-top: 5px;
-  border: 3px solid #8ce5b2;
-  border-radius: 100%; }
