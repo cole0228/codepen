@@ -21,6 +21,7 @@ body {
   background: $black;
   font-size: 1.25em;
   font-family: $raleway;
+  line-height: 1.5em;
 }
 
 nav {
@@ -47,7 +48,7 @@ nav ul li:hover > ul {
 
 nav ul li {
   float: left;
-  width: 500px;
+  width: 75%;
   text-align: left;
   border-bottom: 3px solid $b-bottom;
 }
