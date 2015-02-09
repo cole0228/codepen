@@ -25,19 +25,24 @@ body {
 }
 
 img {
-  width: 20%;
+  display: block;
+  margin: 3em auto 0 auto;
+  width: 350px;
   border: 3px solid $violet;
 }
 
+
 nav {
-  margin: 100px auto;
+  display: block;
+  padding: 0;
+  margin: 3em auto 0 auto;
   text-align: center;
 }
 
 nav ul {
   margin-left: 0;
   padding-left: 0;
-  width: 500px;
+  width: 400px;
   list-style: none;
   position: relative;
   display: inline-table;
@@ -53,7 +58,7 @@ nav ul li:hover > ul {
 
 nav ul li {
   float: left;
-  width: 75%;
+  width: 100%;
   text-align: left;
   border-bottom: 3px solid $b-bottom;
 }
