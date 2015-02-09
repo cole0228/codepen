@@ -101,22 +101,19 @@ nav ul ul {
 nav ul ul li {
   float: none;
   border-bottom: 2px solid #A187BE;
-  border-left: 2px solid #A187BE;
-  border-right: 2px solid #A187BE;
-  border-radius: 7px;
   position: relative; }
 
-/* line 98, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 95, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul ul li a {
   padding: 15px 10px;
   color: #FDC68A; }
 
-/* line 103, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 100, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul ul li a:hover {
   background: #555555;
   color: #C4DF9B; }
 
-/* line 108, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 105, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 #down-triangle {
   float: right;
   width: 0;
