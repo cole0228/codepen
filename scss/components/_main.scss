@@ -59,8 +59,13 @@ nav ul li:hover {
 nav ul li a {
   display: block;
   padding: 15px 10px;
-  color: #2a2a2a;
+  color: $magenta;
   text-decoration: none;
+  background-color: $hover-90grey;
+}
+
+nav ul li a:hover{
+  background-color: $dark-grey;
 }
 
 nav ul ul {
@@ -72,18 +77,21 @@ nav ul ul {
 
 nav ul ul li {
   float: none;
-  border-bottom: 2px solid #eaeaea;
+  border-bottom: 2px solid $violet;
+  border-left: 2px solid $violet;
+  border-right: 2px solid $violet;
+  border-radius: 7px;
   position: relative;
 }
 
 nav ul ul li a {
   padding: 15px 10px;
-  color: #838383;
+  color: $orange;
 }
 
 nav ul ul li a:hover {
-  background: #47d583;
-  color: #fff;
+  background: $dark-grey;
+  color: $hover-color;
 }
 
 #down-triangle {
@@ -91,7 +99,7 @@ nav ul ul li a:hover {
   width: 0;
   height: 0;
   margin-top: 10px;
-  border-top: 10px solid #2ecc71;
+  border-top: 10px solid $yellow;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
