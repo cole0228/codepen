@@ -37,11 +37,16 @@ body {
   line-height: 1.5em; }
 
 /* line 27, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+img {
+  width: 20%;
+  border: 3px solid #A187BE; }
+
+/* line 32, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav {
   margin: 100px auto;
   text-align: center; }
 
-/* line 32, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 37, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul {
   margin-left: 0;
   padding-left: 0;
@@ -50,26 +55,26 @@ nav ul {
   position: relative;
   display: inline-table; }
 
-/* line 41, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 46, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul ul {
   display: none; }
 
-/* line 45, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 50, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul li:hover > ul {
   display: block; }
 
-/* line 49, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 54, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul li {
   float: left;
   width: 75%;
   text-align: left;
   border-bottom: 3px solid #82CA9D; }
 
-/* line 56, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 61, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul li:hover {
   background: #f2f2f2; }
 
-/* line 60, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 65, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul li a {
   display: block;
   padding: 15px 10px;
@@ -77,18 +82,18 @@ nav ul li a {
   text-decoration: none;
   background-color: #262626; }
 
-/* line 68, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 73, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul li a:hover {
   background-color: #555555; }
 
-/* line 72, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 77, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul ul {
   border-radius: 0px;
   padding: 0;
   position: absolute;
   top: 100%; }
 
-/* line 79, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 84, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul ul li {
   float: none;
   border-bottom: 2px solid #A187BE;
@@ -97,17 +102,17 @@ nav ul ul li {
   border-radius: 7px;
   position: relative; }
 
-/* line 88, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 93, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul ul li a {
   padding: 15px 10px;
   color: #FDC68A; }
 
-/* line 93, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 98, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 nav ul ul li a:hover {
   background: #555555;
   color: #C4DF9B; }
 
-/* line 98, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
+/* line 103, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/codepen/scss/components/main */
 #down-triangle {
   float: right;
   width: 0;

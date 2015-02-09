@@ -24,6 +24,11 @@ body {
   line-height: 1.5em;
 }
 
+img {
+  width: 20%;
+  border: 3px solid $violet;
+}
+
 nav {
   margin: 100px auto;
   text-align: center;
